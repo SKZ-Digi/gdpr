@@ -1,0 +1,14 @@
+/* aclonica-regular - latin */
+@font-face {
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  src: local("aclonica-v18-latin-regular.woff2") format("woff2") /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+html, body, [class*="css"] {
+    font-family: 'Aclonica', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+    color: #091747;
+}
